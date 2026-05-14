@@ -1,0 +1,32 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "mysql-3ec252bc-rafaelelias-8641.b.aivencloud.com",
+            "port": 11256,
+            "driver": "MySQL",
+            "name": "mysql-defaultdb",
+            "username": "avnadmin",
+            "database": "defaultdb"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "mysql-22-04-estudante-cf5c.b.aivencloud.com",
+            "port": 11758,
+            "driver": "MySQL",
+            "name": "database-gabriel",
+            "username": "avnadmin",
+            "database": "defaultdb"
+        }
+    ]
+}
