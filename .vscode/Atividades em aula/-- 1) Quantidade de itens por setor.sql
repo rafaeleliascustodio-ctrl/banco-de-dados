@@ -21,6 +21,6 @@ GROUP BY id_setor;
 
 SELECT id_paciente,
        data_consulta,
-       SUM(valor)
+       SUM(valor) AS total_valor
 FROM Consultas
-GROUPBY id_paciente;
+GROUP BY id_paciente, data_consulta;
