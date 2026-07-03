@@ -11,7 +11,7 @@ def conectar():
     host = "localhost",
     user = "root",
     password = "root",
-    database = "projetoindustrial",
+    database = "metalsul_industrial",
     port = 3306
     )
     return conexao
